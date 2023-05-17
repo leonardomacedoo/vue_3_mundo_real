@@ -60,9 +60,9 @@ npx create-vue real-world-vue
 > 
 > Isso começará a nos guiar por um processo onde selecionamos as opções para configurar nosso projeto. As figuras abaixo mostram o processo. 
 
-![npx_create_vue_1](../img_readme/npx_create_vue_1.jpg)
+![npx_create_vue_1](img_readme/npx_create_vue_1.jpg)
 
-![npx_create_vue_2](../img_readme/npx_create_vue_2.jpg)
+![npx_create_vue_2](img_readme/npx_create_vue_2.jpg)
 
 > **Observe que podemos escolher ``Yes/No`` para cada opção.**
 
@@ -94,7 +94,7 @@ Com ele, instalamos todas as dependências para nosso novo projeto.
 
 3.3 Para visualizá-lo ao vivo em nosso navegador, executaremos o comando ``npm run dev``, que compila o aplicativo e o disponibiliza ao vivo em um host local (``http://localhost:5173``). Você verá a seguinte página no browser:
 
-![vue_page_initial](../img_readme/vue_page_initial.jpg)
+![vue_page_initial](img_readme/vue_page_initial.jpg)
 
 > A figura acima mostra nossa _app_, rodando ao vivo no navegador. Ele já possui duas páginas, a página inicial (``Home``) e a página Sobre (``About``), entre as quais podemos navegar porque está usando o **Vue Router** (Roteador Vue).
 
@@ -103,7 +103,7 @@ Com ele, instalamos todas as dependências para nosso novo projeto.
 
 4.1 No painel esquerdo do VS Code, você verá uma estrutura de diretório que se parece com a figura abaixo.
 
-![estrutura_diretorio_projeto_vue](../img_readme/estrutura_diretorio_projeto_vue.jpg)
+![estrutura_diretorio_projeto_vue](img_readme/estrutura_diretorio_projeto_vue.jpg)
 
 O diretório ``node_modules`` é onde todas as bibliotecas que precisamos para construir o Vue são armazenadas.
 
@@ -169,7 +169,7 @@ Se olharmos dentro do nosso arquivo "**index.html**", podemos ver que há uma ``
 
 Vamos dar uma olhada neste processo mais visualmente. Veja a figura abaixo.
 
-![colocando_tudo_junto](../img_readme/colocando_tudo_junto.jpg)
+![colocando_tudo_junto](img_readme/colocando_tudo_junto.jpg)
 
 
 ### **Passo 6. Fazendo o Fechamento**
