@@ -19,7 +19,7 @@ No tutorial anterior criamos nosso projeto com o comando ``create-vue``, e agora
 
 Para começar a construir nosso _app_, precisamos obter uma compreensão básica de como as coisas estão funcionando no aplicativo de demonstração que a CLI criou para nós no tutorial anterior. Vamos analisar o diretório ``src/views``, que possui dois arquivos com a extensão ``.vue``: **HomeView.vue** e **AboutView.vue**. Na verdade, eles são os componentes que o "**Vue Router**" (Roteador Vue) carrega quando navegamos para as rotas ``Home`` e ``About``, respectivamente. A figura abaixo ilustra o que acabamos de dizer.
 
-![links_home_about](../img_readme/links_home_about.jpg)
+![links_home_about](img_readme/links_home_about.jpg)
 
 No próximo tutorial, vamos explorar os fundamentos do **Vue Router**, mas por enquanto você só precisa entender que esses componentes de “_visualização_” são diferentes e que podem ser vistos (ou navegados) em nosso aplicativo. Eles podem conter componentes filhos que estão aninhados dentro deles, e seus filhos também serão exibidos. Por exemplo, o componente ``HomeView.vue`` tem um filho: ``TheWelcome.vue``, que tem vários códigos de _template_ que estão sendo exibidos quando estamos na rota ``Home``. O trecho de código do arquivo ``HomeView.vue`` abaixo mostra como o componente pai "chama" o componente filho.
 
@@ -35,11 +35,11 @@ Cada um desses arquivos ``.vue`` são componentes de arquivo único, e é isso q
 
 Quando falamos de aplicativos Vue, na verdade estamos falando de uma coleção de componentes Vue. A figura abaixo mostra esta coleção.
 
-![anatomia_componente](../img_readme/anatomia_componente.gif)
+![anatomia_componente](img_readme/anatomia_componente.gif)
 
 Surge uma pergunta: como funcionam esses componentes de arquivo único? Observe a figura abaixo.
 
-![anatomia_componente_2](../img_readme/anatomia_componente_2.jpg)
+![anatomia_componente_2](img_readme/anatomia_componente_2.jpg)
 
 Um componente ``.vue`` típico possui três seções: ``<script>``, ``<template>`` e ``<style>``.
 
@@ -54,11 +54,11 @@ Agora que pudemos entender os componentes de arquivo único, podemos começar a 
 
 No final deste curso, teremos feito um _app_ que mostra eventos. Veja a figura abaixo.
 
-![display_events_app](../img_readme/display_events_app.jpg)
+![display_events_app](img_readme/display_events_app.jpg)
 
 Os eventos serão extraídos de uma chamada a uma API externa e serão exibidos na página inicial. Poderemos clicar no evento para ver os seus detalhes, como mostra a figura abaixo.
 
-![display_events_app_2](../img_readme/display_events_app_2.jpg)
+![display_events_app_2](img_readme/display_events_app_2.jpg)
 
 3.1 Abra o Terminal no VS Code. Primeiro digite (CTRL+Shift+P) e use a opção “Ver: Toggle Terminal” ou “Ver: Alternar Terminal”.
 
@@ -168,7 +168,7 @@ npm run dev
 
 Após a execução do comando acima, ele disponibiliza ao vivo um host local (``http://localhost:5173``), você verá a seguinte página no browser:
 
-![vue_initial_app_updated](../img_readme/vue_initial_app_updated.jpg)
+![vue_initial_app_updated](img_readme/vue_initial_app_updated.jpg)
 
 
 ### **Passo 4. Trabalhando no ``EventCard``**
@@ -269,7 +269,7 @@ import EventCard from '@/components/EventCard.vue'
 
 4.6 Agora, devemos ver nosso "**EventCard**" aparecendo no browser quando estamos na página inicial (``Home``). Ver figura abaixo.
 
-![event_card_showing_up](../img_readme/event_card_showing_up.jpg)
+![event_card_showing_up](img_readme/event_card_showing_up.jpg)
 
 
 ### **Passo 5. Fazendo Um Refatoramento No Código**
@@ -384,7 +384,7 @@ const events = ref([
 
 5.4 Repita o procedimento efetuado no **Passo 3.10** para visualizarmos no browser o que acabamos de fazer no passo anterior. Ou seja, criamos um ``EventCard``para cada um dos eventos que são dados do arquivo "**HomeView.vue**". Você verá algo como a figura abaixo.
 
-![all_events_homeview](../img_readme/all_events_homeview.jpg)
+![all_events_homeview](img_readme/all_events_homeview.jpg)
 
 5.5 Por fim, só precisamos colocar esses eventos em um contêiner Flexbox para que as coisas fiquem como queremos. Abra o arquivo "**src/views/HomeView.vue**" e altere o nome da classe do elemento ``<div>`` em que nosso ``EventCard`` está aninhado e adicionar alguns estilos Flexbox. Altere o conteúdo das seções ``<template>``e ``<style scoped>`` pelo seguinte trecho abaixo.
 
@@ -466,13 +466,13 @@ h2 {
 
 6.5 Repita o procedimento efetuado no **Passo 3.10** para visualizarmos no browser o que acabamos de fazer no passo anterior. Você verá algo como a figura abaixo.
 
-![all_events_homeview_2](../img_readme/all_events_homeview_2.jpg)
+![all_events_homeview_2](img_readme/all_events_homeview_2.jpg)
 
 > Estamos vendo algumas coisas. Primeiro, nosso contêiner Flexbox está funcionando e os títulos dos eventos agora são um pouco maiores (**20px**) devido à nova regra global de estilo que adicionamos. 
 
 6.6 Observe o que acontece quando navegamos para a rota ``About``. Ver figura abaixo.
 
-![route_about](../img_readme/route_about.jpg)
+![route_about](img_readme/route_about.jpg)
 
 > Observe que o conteúdo desta página "_This is an about page_" aparece no canto inferior esquerdo. Portanto, precisamos corrigir esse posicionamento um pouco mais adiante.
 
@@ -515,7 +515,7 @@ h2 {
 
 Você verá algo como a figura abaixo.
 
-![route_about_2](../img_readme/route_about_2.jpg)
+![route_about_2](img_readme/route_about_2.jpg)
 
 
 ### **Passo 7. Fazendo o Fechamento**
