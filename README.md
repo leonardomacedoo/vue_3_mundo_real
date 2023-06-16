@@ -25,21 +25,21 @@ Neste tutorial, veremos as ferramentas que o Vue usa para navegar entre as pági
 
 Quando se trata de websites, normalmente conectamos nossa página com links. Um link é clicado, chama de volta o servidor para a próxima página e essa página é carregada. Ver figura abaixo.
 
-![server_side_routing](../img_readme/server_side_routing.jpg)
+![server_side_routing](img_readme/server_side_routing.jpg)
 
 Chamamos isso de “_roteamento do lado do servidor_” porque o cliente está fazendo uma solicitação ao servidor a cada alteração de um URL.
 
-![sever_side_routing_2](../img_readme/sever_side_routing_2.jpg)
+![sever_side_routing_2](img_readme/sever_side_routing_2.jpg)
 
 > Quando se trata do Vue, muitos escolhem o roteamento do lado do cliente, o que significa que ele ocorre no próprio navegador (browser) usando JavaScript.
 
-![client_side_routing](../img_readme/client_side_routing.jpg)
+![client_side_routing](img_readme/client_side_routing.jpg)
 
 > Em muitos casos, a visualização do nosso aplicativo que precisamos mostrar já foi carregada no navegador, portanto, não precisamos entrar em contato com o servidor para obtê-la. O **Vue Router** simplesmente atualiza a parte do aplicativo que está sendo exibida no momento.
 
 > Na verdade, com um tipo de roteamento como esse, nosso aplicativo funciona como um aplicativo de página única (i.e. SPA). Ver figura abaix. Mas, o que exatamente isso significa? É o que veremos no próximo passo.
 
-![spa_index_html](../img_readme/spa_index_html.gif)
+![spa_index_html](img_readme/spa_index_html.gif)
 
 
 ### **Passo 2. Aplicativo de Página Única (Single Page Application)**
@@ -223,7 +223,7 @@ Mas onde, exatamente, ele será carregado? A resposta é: no ``<RouterView/>``.
 
 Novamente, isso é apenas um _placeholder_ que é substituído pelo componente ``view`` para o qual roteamos, como ``HomeView`` ou ``AboutView``. A figura abaixo ilustra este processo.
 
-![placeholder_component](../img_readme/placeholder_component.jpg)
+![placeholder_component](img_readme/placeholder_component.jpg)
 
 
 ### **Passo 5. Customizando (Personalizando) nosso aplicativo de exemplo**
@@ -325,7 +325,7 @@ export default router
 5.7 Repita o procedimento efetuado no **Passo 3.10** do **Tutorial 3** para visualizarmos no browser o que acabamos de fazer no passo anterior. Você verá algo como a figura abaixo.
 
 
-![example_app_t4](../img_readme/example_app_t4.jpg)
+![example_app_t4](img_readme/example_app_t4.jpg)
 
 
 ### **Passo 7. Fazendo o Fechamento**
